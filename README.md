@@ -12,7 +12,7 @@ To configure the server to connect to your own Firestore database, follow these 
 
 4. Replace the existing configuration in the firebaseConfig variable with your Firebase project's configuration. Copy and paste the firebaseConfig code provided by your Firebase database. The code structure should resemble the following:
 
-`
+```
 const firebaseConfig = {
     apiKey: "your-api-key",
     authDomain: "your-auth-domain",
@@ -23,7 +23,7 @@ const firebaseConfig = {
     appId: "your-app-id",
     measurementId: "your-measurement-id"
 };
-`
+```
 5. After updating the configuration, save the file.
 
 6. Set up the server by running the command npm run dev in your terminal.
